@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1" android:background="@drawable/black">
+
+
+    <RelativeLayout
+            android:layout_width="272dp"
+            android:layout_height="234dp" android:gravity="center"
+            android:layout_gravity="center_horizontal" android:background="@drawable/kimsplays">
+    </RelativeLayout>
+    <Button
+            android:layout_width="93dp"
+            android:layout_height="91dp"
+            android:text="@string/buttonHighscore"
+            android:id="@+id/btnHigh"
+            android:layout_gravity="center_horizontal" android:textColor="@color/White"
+            android:background="@drawable/menutop"/>
+    <Button
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonPlay"
+            android:id="@+id/btnPlay" android:textColor="@color/Yellow"
+            android:layout_gravity="center_horizontal" android:background="@drawable/buttonmid"
+            android:layout_weight="0.23"/>
+    <Button
+            android:layout_width="116dp"
+            android:layout_height="64dp"
+            android:text="@string/buttonQuit"
+            android:id="@+id/btnQuit" android:layout_gravity="center_horizontal" android:textColor="@color/White"
+            android:background="@drawable/menubottom" android:layout_weight="0.33" android:gravity="center"/>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KimsPlay</string>
+    <string name="pushMeButton">Push me</string>
+
+    <string name="inputOne">Find</string>
+    <string name="inputTwo">out</string>
+    <string name="inputThree">which</string>
+    <string name="inputFour">words</string>
+    <string name="inputFive">that</string>
+    <string name="inputSix">is</string>
+    <string name="inputSeven">missing</string>
+    <string name="inputEight">in</string>
+    <string name="inputNine">here</string>
+    <string name="quitButton">Quit</string>
+    <string name="round">ROUND</string>
+    <string name="number">Round: </string>
+    <string name="buttonPlay">Play</string>
+    <string name="buttonHighscore">Highscore</string>
+    <string name="buttonQuit">Quit</string>
+    <string name="highscore">HIGHSCORE</string>
+    <string name="menuButton">Back to menu</string>
+
+    <string name="answer1">Braveheart</string>
+    <string name="answer2">Starwars</string>
+    <string name="answer3">Lion King</string>
+    <string name="picked">Which movie is missing?</string>
+    <string name="back_to_menu">Back to Menu</string>
+    <string name="play">I am ready!</string>
+    <string name="points">Points </string>
+    <string name="points2">Points:</string>
+    <string name="p">0 poeng!</string>
+    <string name="xx_round">Round: X</string>
+    <string name="gameover">GAME OVER!</string>
+    <string name="Look">Look closely at the words..</string>
+    <string name="highscore1">HIGHSCORE!</string>
+    <string name="editwinnername">Name:</string>
+    <string name="sendbuttin">Send</string>
+    <string name="playerscores">Playerscore:</string>
+    <string name="roundnumb">Round:</string>
+    <string name="backbutton">Back to menu</string>
+</resources>

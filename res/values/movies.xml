@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="movies">Movies>
+	<item>Prince Caspian</item>
+	<item>Inception</item>
+	<item>The Matrix</item>
+	<item>Ice Age3</item>
+	<item>Blues Brothers</item>
+	<item>Sharks</item>
+	<item>Braveheart</item>
+	<item>Titanic</item>
+	<item>E.T</item>
+	<item>Hook</item>
+	<item>Narnia</item>
+	<item>Runaway Bride</item>
+	<item>Treasure Island</item>
+	<item>Shutter Island</item>
+	<item>Romeo and Juliet</item>
+	<item>True Lies</item>
+	<item>Home Alone1</item>
+	<item>Astrix</item>
+	<item>Sniper</item>
+	<item>Taken</item>
+	<item>Terminator</item>
+	<item>Blade Runner</item>
+	<item>High Fidelity</item>
+	<item>Rush</item>
+	<item>Avengers</item>
+	<item>DareDevil</item>
+	<item>James Bond</item>
+	<item>Rocky</item>
+	<item>Fantastic Four</item>
+	<item>El Critico</item>
+	<item>Batman</item>
+	<item>Jurassic Park</item>
+	<item>Mad Max</item>
+	<item>La French</item>
+	<item>Home</item>
+	<item>Avatar</item>
+	<item>Max Payn</item>
+	<item>Deer Hunter</item>
+	<item>Forest Gump</item>
+	<item>Pitch Dark</item>
+
+</string-array>
+</resources>

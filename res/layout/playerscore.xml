@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1" android:background="@drawable/black">
+
+    <RelativeLayout
+            android:layout_width="221dp"
+            android:layout_height="154dp" android:background="@drawable/kimsp" android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/relativeLayout"
+            android:layout_above="@+id/textView3" android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp">
+    </RelativeLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/highscore1"
+            android:id="@+id/textView3" android:layout_gravity="center_horizontal" android:textColor="@color/Yellow"
+            android:layout_centerVertical="true" android:layout_centerHorizontal="true" android:textStyle="bold"
+            android:textSize="25sp"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName|text"
+            android:ems="10"
+            android:id="@+id/edtName"
+            android:textColor="@color/Yellow" android:textSize="25sp" android:textStyle="normal|bold"
+            android:hint="@string/editwinnername" android:textColorHint="@color/Yellow"
+            android:layout_below="@+id/textView3" android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" android:layout_marginTop="68dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sendbuttin"
+            android:id="@+id/btnSend"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" android:background="@drawable/buttonmid"
+            android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:textStyle="bold"
+            android:textSize="25sp"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtScore"
+            android:layout_marginTop="33dp"
+            android:textColor="@color/Red" android:hint="Total score:   " android:textColorHint="@color/Red"
+            android:layout_below="@+id/textView3" android:layout_centerHorizontal="true" android:gravity="center"/>
+</RelativeLayout>

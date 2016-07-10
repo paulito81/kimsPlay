@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent" android:weightSum="1" android:id="@+id/highscoreLayout"
+			  android:background="@drawable/black">
+
+	<RelativeLayout
+			android:layout_width="161dp"
+			android:layout_height="62dp" android:background="@drawable/kimsplays"
+			android:gravity="center" android:paddingRight="20dp"
+			android:layout_gravity="center_horizontal" android:layout_weight="2.18">
+	</RelativeLayout>
+	<Button
+			style="?android:attr/buttonStyleSmall"
+			android:layout_width="150dp"
+			android:layout_height="50dp"
+			android:text="@string/menuButton"
+			android:id="@+id/btnMenu"
+			android:layout_marginEnd="204dp"
+			android:textAlignment="center" android:paddingRight="0dp"
+			android:textStyle="bold" android:layout_marginRight="0dp" android:layout_gravity="center_horizontal"
+			android:background="@drawable/buttonmid"/>
+	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:text="@string/highscore"
+			android:id="@+id/textView" android:gravity="center_horizontal"
+			android:inputType="text" android:paddingTop="20dp" android:textStyle="bold"
+			android:textColor="@color/Yellow"/>
+	<ListView
+			android:layout_width="fill_parent"
+			android:layout_height="344dp"
+			android:id="@+id/listView"
+			android:fastScrollEnabled="true" android:fastScrollAlwaysVisible="true"/>
+</LinearLayout>
